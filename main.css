@@ -1,0 +1,11 @@
+div{
+    /* outline: black 1px solid; */
+    height: 15em;
+    width:30%;
+    border:none;
+    }
+
+    .coin {
+        height: 15em;
+        width: 100%;
+    }
