@@ -23,13 +23,27 @@ const server = http.createServer(function(req, res) {
       }
       else if (page == '/main.css'){
         fs.readFile('main.css', function(err, data) {
-          res.writeHead(200, {'Content-Type': 'style/css'});
+          res.writeHead(200, {'Content-Type': 'text/css'});
           res.write(data);
           res.end();
         });
       }else if (page == '/main.js'){
         fs.readFile('main.js', function(err, data) {
           res.writeHead(200, {'Content-Type': 'text/javascript'});
+          res.write(data);
+          res.end();
+        });
+      }
+      else if (page == '/heads.png'){
+        fs.readFile('heads.png', function(err, data) {
+          res.writeHead(200, {'Content-Type': 'image/png'});
+          res.write(data);
+          res.end();
+        });
+      }
+      else if (page == '/tails.png'){
+        fs.readFile('tails.png', function(err, data) {
+          res.writeHead(200, {'Content-Type': 'image/png'});
           res.write(data);
           res.end();
         });
@@ -66,6 +80,7 @@ const heads = {
 const tails = {
   side: 'tails',
   description: 'back'
+  
 }
 
 const arr = [heads, tails]

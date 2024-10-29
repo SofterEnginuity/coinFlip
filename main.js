@@ -33,10 +33,10 @@ document.querySelector('h3').innerText = ""
 
 function showImg(data){
   if(data.side == 'heads'){
-    document.querySelector('#img').innerHTML = '<img src="coinFlip/coinFlip/heads.png">' 
+    document.querySelector('#img').src= 'heads.png' 
     console.log('heads img go here')
   }else{
-    document.querySelector('#img').innerHTML = '<img src="coinFlip/coinFlip/tails.png">';
+    document.querySelector('#img').src = 'tails.png';
     console.log('tails img go here')
   }
 }
