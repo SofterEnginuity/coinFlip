@@ -8,7 +8,7 @@ Heads == I win,
 Tails == you lose!
 :P
 
-**Link to project:** 
+**Link to project:** https://coinflipped.netlify.app/
 
 ![alt tag](https://i.imgur.com/uPMHMmh.png)
 
