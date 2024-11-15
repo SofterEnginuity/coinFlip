@@ -1,7 +1,3 @@
-# 💸 Week08 Bootcamp2019a Project: Node Coin Flip Game
-
-### Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
-
 
 Coin Flip
 Heads == I win, 
@@ -10,8 +6,9 @@ Tails == you lose!
 
 **Link to project:** https://coinflipped.netlify.app/
 
-![alt tag](https://i.imgur.com/uPMHMmh.png)
 
+
+<img src="https://i.imgur.com/uPMHMmh.png" width=40% height=40%>
 **Tech used:** HTML, CSS, Javascript & Node.js
 
 This project was built brick by brick to get you a randomized classic coin flip!
